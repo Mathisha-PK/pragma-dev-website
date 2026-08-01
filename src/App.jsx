@@ -7,6 +7,7 @@ import Services from './pages/Services.jsx'
 import Pricing from './pages/Pricing.jsx'
 import Contact from './pages/Contact.jsx'
 import Terms from './pages/Terms.jsx'
+import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
   return (

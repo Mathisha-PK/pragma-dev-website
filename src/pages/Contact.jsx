@@ -25,18 +25,24 @@ const PUBLIC_KEY = "3LQ_HjmBBFhjH-M_E"
 // Google Apps Script Web App URL (from your deployment)
 const SHEET_URL = "https://script.google.com/macros/s/AKfycby35TfAGAAYJi1b1tjeUHbmcRBkPYwvkCgwMsI3M3nFcCeVvraZUf30a_t_kNKSsJRj/exec"
 
+// Static data — defined once, outside the component, since it never changes
+const contactDetails = [
+  { label: "Phone / Whatsapp", value: "+94 70 364 2741 ", href: "tel:+94703642741" },
+  { label: "Email", value: "pragmadev.info@gmail.com", href: "mailto:pragmadev.info@gmail.com" },
+  { label: "Location", value: "Ja-Ela, Sri Lanka", href: null },
+  { label: "Facebook", value: "Pragma Development", href: "https://www.facebook.com/share/19TSQt7jAS/" },
+];
+
+// Motion-wrapped components — defined once at module scope so React sees
+// the same component type across re-renders instead of remounting on every keystroke
+const MotionA = motion.a
+const MotionDiv = motion.div
+
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
   const [sending, setSending] = useState(false)
   const [error, setError] = useState(null)
   const [formData, setFormData] = useState({ name: "", email: "", message: "" })
-
-  const contactDetails = [
-    { label: "Phone / Whatsapp", value: "+94 70 364 2741 ", href: "tel:+94703642741" },
-    { label: "Email", value: "pragmadev.info@gmail.com", href: "mailto:pragmadev.info@gmail.com" },
-    { label: "Location", value: "Ja-Ela, Sri Lanka", href: null },
-    { label: "Facebook", value: "Pragma Development", href: "https://www.facebook.com/share/19TSQt7jAS/" },
-  ];
 
   function handleChange(e) {
     setFormData({ ...formData, [e.target.name]: e.target.value })
@@ -110,8 +116,7 @@ export default function Contact() {
         <div className="mt-12 grid gap-12 lg:grid-cols-2 lg:items-start">
           <motion.div className="space-y-4" initial="hidden" animate="visible" variants={containerStagger}>
             {contactDetails.map((item) => {
-              const Wrapper = item.href ? "a" : "div";
-              const MotionWrapper = motion(Wrapper);
+              const MotionWrapper = item.href ? MotionA : MotionDiv;
               const wrapperProps = item.href
                 ? {
                     href: item.href,
