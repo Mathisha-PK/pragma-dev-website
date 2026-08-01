@@ -2,16 +2,18 @@ import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import WhatsAppChat from './components/WhatsAppChat.jsx'
+import ScrollToTop from './components/ScrollToTop.jsx'
 import Home from './pages/Home.jsx'
 import Services from './pages/Services.jsx'
 import Pricing from './pages/Pricing.jsx'
 import Contact from './pages/Contact.jsx'
 import Terms from './pages/Terms.jsx'
-import ScrollToTop from './components/ScrollToTop'
+
 
 export default function App() {
   return (
     <div className="min-h-screen bg-navy-900">
+      <ScrollToTop />
       <Header />
       <main>
         <Routes>
