@@ -1,0 +1,20 @@
+[
+  {
+    "id": "automation",
+    "name": "Automation Solutions",
+    "image": "images/automation-icon.png",
+    "description": "Put your manual tasks on autopilot."
+  },
+  {
+    "id": "seo-optimization",
+    "name": "SEO Optimization",
+    "image": "images/seo-icon.png",
+    "description": "Get found by your ideal customers."
+  },
+  {
+    "id": "ecommerce",
+    "name": "E-Commerce Builds",
+    "image": "images/e-commerce-icon.png",
+    "description": "E-commerce solutions designed to sell."
+  }
+]

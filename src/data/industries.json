@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Consultants/Contractors",
+    "name": "Consultants/Contractors",
+    "desc": "Professional websites that showcase your expertise, services, and insights while turning visitors into valuable clients."
+  },
+  {
+    "id": "Construction & Home-Service Businesses",
+    "name": "Construction & Home-Service Businesses",
+    "desc": "Websites for construction, plumbing, electrical, painting, landscaping, and renovation businesses to showcase their work and attract customers."
+  },
+  {
+    "id": "Restaurants & Cafés",
+    "name": "Restaurants & Cafés",
+    "desc": "Attract more customers with engaging websites featuring menus, locations, reservations, and a taste of your brand."
+  },
+  {
+    "id": "Salons & Barbers",
+    "name": "Salons & Barbers",
+    "desc": "Make it easy for customers to discover your services, explore your work, and book appointments online."
+  },
+  {
+    "id": "Photographers",
+    "name": "Photographers",
+    "desc": "Let your work speak for itself with stunning portfolio websites designed to showcase your creativity and attract clients."
+  },
+  {
+    "id": "Hotels & Guesthouses",
+    "name": "Hotels & Guesthouses",
+    "desc": "Booking systems and guest experiences that just work."
+  }
+]

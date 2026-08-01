@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    background-color: #0b5fd9;
+    color: white;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display tracking-tight;
+  }
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.2em] text-brand-blue-light;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-md bg-brand-blue px-5 py-3 text-sm font-semibold text-white
+           hover:bg-brand-blue-dark transition-colors duration-200;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-md border border-navy-700 px-5 py-3 text-sm font-semibold text-white
+           hover:border-brand-blue-light hover:text-brand-blue-light transition-colors duration-200;
+  }
+  .section-light {
+    @apply bg-paper text-ink;
+  }
+  .section-dark {
+    @apply bg-navy-900 text-white;
+  }
+}

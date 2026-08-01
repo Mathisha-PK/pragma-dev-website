@@ -1,0 +1,87 @@
+[
+  {
+    "number": "01",
+    "title": "Payment Structure",
+    "intro": "All projects follow a 50/50 payment structure:",
+    "points": [
+      "50% upfront, paid before work begins.",
+      "50% upon completion, paid before final delivery and handover."
+    ],
+    "note": "For larger custom projects, milestone-based payment plans may be arranged on request."
+  },
+  {
+    "number": "02",
+    "title": "Package Customization",
+    "points": [
+      "Features from a higher-tier package can be added to a lower-tier package for an additional charge.",
+      "Removing features from a package can reduce the standard price accordingly.",
+      "Any customization outside the original package scope will be quoted and agreed upon before work begins."
+    ]
+  },
+  {
+    "number": "03",
+    "title": "Domain & Hosting",
+    "points": [
+      "Domain and hosting costs are separate from the package price.",
+      "Costs vary depending on client preference and project requirements, and will be communicated before purchase."
+    ]
+  },
+  {
+    "number": "04",
+    "title": "Maintenance",
+    "points": [
+      "Monthly maintenance charges vary depending on the scope of the site and client requirements.",
+      "Standard maintenance includes uptime monitoring, backups, security updates, minor content edits, and SSL/domain renewal reminders.",
+      "Work beyond the agreed maintenance scope (new pages, redesigns, new features) will be quoted separately.",
+      "On CMS-based sites, clients may handle basic content updates themselves; ongoing maintenance in that case can be lighter or optional."
+    ]
+  },
+  {
+    "number": "05",
+    "title": "Revisions",
+    "points": [
+      "Each package includes a set number of revision rounds as agreed at project start.",
+      "Additional revisions beyond the included rounds will be billed separately."
+    ]
+  },
+  {
+    "number": "06",
+    "title": "Project Timeline",
+    "points": [
+      "Estimated delivery timelines will be provided at project start and depend on package scope and client responsiveness in providing content/feedback.",
+      "Delays caused by late client feedback or missing content may extend the delivery date accordingly."
+    ]
+  },
+  {
+    "number": "07",
+    "title": "Content & Assets",
+    "points": [
+      "Clients are expected to provide their own text, images, and branding assets unless otherwise agreed.",
+      "Sourcing or writing content on the client's behalf is available as an additional service."
+    ]
+  },
+  {
+    "number": "08",
+    "title": "Ownership & Handover",
+    "points": [
+      "Final files, source code, and domain/hosting access are handed over to the client upon full payment.",
+      "Until final payment is received, ownership and access remain with the developer."
+    ]
+  },
+  {
+    "number": "09",
+    "title": "Cancellation & Refunds",
+    "points": [
+      "The upfront 50% payment is non-refundable once work has begun, as it covers time and resources already committed.",
+      "If a project is cancelled mid-way, work completed up to that point will be delivered in its current state; remaining balance is not owed."
+    ]
+  },
+  {
+    "number": "10",
+    "title": "Post-Launch Support",
+    "points": [
+      "A short free bug-fix window is included immediately after launch, separate from ongoing monthly maintenance.",
+      "Issues reported after this window fall under the maintenance agreement or are billed individually if no maintenance plan is active."
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "custom-web-apps",
+    "name": "Custom Web Apps",
+    "image": "images/custom web-icon.png",
+    "tagline": "Build custom web applications tailored to your unique workflows, with powerful features for business management, customer portals, booking, inventory, analytics, e-commerce, and seamless process automation.",
+    "stack": [
+      { "name": "Business Management Apps", "description": "Streamline your daily operations with custom tools built around your business needs." },
+      { "name": "Customer Portals", "description": "Give customers secure, personalized access to services, information, and project updates." },
+      { "name": "Booking & Scheduling Apps", "description": "Manage appointments, availability, and bookings through a simple automated platform." },
+      { "name": "Inventory Management Apps", "description": "Keep track of stock levels, manage orders, and optimize your supply chain with custom solutions." },
+      { "name": "Client Management Apps", "description": "Organize customer information, interactions, projects, and communications effortlessly." },
+      { "name": "E-Commerce Web Apps", "description": "Create powerful online stores with product management, shopping carts, payments, and orders." },
+      { "name": "Workflow & Automation Apps", "description": "Automate repetitive processes and connect your business workflows for greater efficiency." }
+    ]
+  },
+  {
+    "id": "automation",
+    "name": "Automation Solutions",
+    "image": "images/automation-icon.png",
+    "tagline": "Automate your business with smart tools for contact forms, appointment booking, emails, quotations, lead management, payments, invoices, social media, and analytics, all working seamlessly to save time and improve efficiency.",
+    "stack": [
+      { "name": "Contact Form Automation", "description": "Capture inquiries automatically and keep every potential client organized and easy to follow up with." },
+      { "name": "Appointment Booking", "description": "Let clients schedule consultations effortlessly with automated booking and confirmation." },
+      { "name": "Email Automation", "description": "Send timely, personalized emails automatically—from inquiries and confirmations to follow-ups." },
+      { "name": "Quotation Automation", "description": "Generate quick, accurate project estimates based on your client’s requirements and selected services." },
+      { "name": "Lead Management", "description": "Capture, organize, and track leads efficiently from their first inquiry to project completion." },
+      { "name": "Payment Automation", "description": "Simplify billing with automated invoices, payment processing, and transaction confirmations." },
+      { "name": "Analytics Automation", "description": "Track website performance, visitor behavior, and key metrics automatically to make smarter decisions." }
+    ]
+  },
+  {
+    "id": "seo-optimization",
+    "name": "SEO Optimization",
+    "image": "images/seo-icon.png",
+    "tagline": "We optimize your website to improve search visibility, attract the right audience, and build sustainable organic growth.",
+    "stack": [
+      { "name": "Keyword Strategy", "description": "Research and target relevant keywords to connect your website with the right searches" },
+      { "name": "On-Page SEO", "description": "Optimize headings, content, titles, meta descriptions, and page structure for better rankings." },
+      { "name": "Technical SEO", "description": "Improve site structure, crawlability, indexing, and technical performance for search engines." },
+      { "name": "Performance Optimization", "description": "Enhance loading speed, responsiveness, and Core Web Vitals for a better user experience" },
+      { "name": "Content Optimization", "description": "Create and refine valuable, search-friendly content that engages visitors and supports rankings." },
+      { "name": "Mobile SEO", "description": "Ensure your website performs smoothly and remains search-friendly across all mobile devices." },
+      { "name": "SEO Analytics & Tracking", "description": "Monitor rankings, traffic, and user behavior to continuously improve your SEO performance." }
+    ]
+  },
+  {
+    "id": "ecommerce",
+    "name": "E-Commerce Builds",
+    "image": "images/e-commerce-icon.png",
+    "tagline": "We create modern, high-performing online stores designed to showcase your products, simplify shopping, and turn visitors into customers.",
+    "stack": [
+      { "name": "Custom Store Design", "description": "Create a unique, brand-focused storefront tailored to your business and products." },
+      { "name": "Product Management", "description": "Easily organize products, categories, pricing, images, variations, and inventory." },
+      { "name": "Shopping Cart & Checkout", "description": "Provide a smooth, intuitive shopping experience from product selection to checkout." },
+      { "name": "Secure Payment Integration", "description": "Connect reliable payment gateways for safe and convenient online transactions." },
+      { "name": "Order Management", "description": "Manage orders, customer details, shipping, and order statuses efficiently." },
+      { "name": "Customer Accounts", "description": "Allow customers to manage profiles, orders, addresses, and purchase history." },
+      { "name": "Mobile-Responsive Shopping", "description": "Deliver a seamless shopping experience across smartphones, tablets, and desktops." },
+      { "name": "Sales & Analytics", "description": "Track sales, customer behavior, and store performance to make smarter business decisions." }
+    ]
+  },
+  {
+    "id": "brand-identity",
+    "name": "Brand & Web Identity",
+    "image": "images/web id-icon.png",
+    "tagline": "We build cohesive brand and web identities that communicate your vision, strengthen recognition, and create a memorable digital presence.",
+    "stack": [
+      { "name": "Brand Strategy", "description": "Define a clear visual direction that reflects your business values and audience." },
+      { "name": "Logo & Visual Identity", "description": "Create distinctive logos, colors, typography, and visual elements for a consistent brand." },
+      { "name": "Brand Guidelines", "description": "Establish clear standards for using your brand across digital and marketing platforms." },
+      { "name": "Website Visual Language", "description": "Translate your brand identity into a polished and consistent website experience" },
+      { "name": "Typography & Color Systems", "description": "Develop harmonious type and color combinations that reinforce your brand personality." },
+      { "name": "Custom Graphics & Assets", "description": "Design unique visual elements that enhance your website and digital communications." },
+      { "name": "Consistent Digital Presence", "description": "Maintain a unified brand experience across your website, social media, and online platforms." }
+    ]
+  },
+  {
+    "id": "maintenance",
+    "name": "Ongoing Maintenance",
+    "image": "images/maintainance-icon.png",
+    "tagline": "Keep your website secure, fast, and reliable with continuous monitoring, updates, and performance improvements.",
+    "stack": [
+      { "name": "Monitoring", "description": "Continuous monitoring to keep your website running smoothly." },
+      { "name": "Security Patching", "description": "Regular security updates to protect your website from threats." },
+      { "name": "Performance Tuning", "description": "Ongoing optimization to maintain fast loading and smooth performance." },
+      { "name": "Bug Fixes", "description": "Quickly identify and resolve website issues and errors." },
+      { "name": "Backup & Recovery", "description": "Regular backups to protect your data and enable quick recovery." },
+      { "name": "Content Updates", "description": "Keep your website content fresh, accurate, and up to date." }
+    ]
+  }
+]

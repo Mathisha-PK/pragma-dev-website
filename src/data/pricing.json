@@ -1,0 +1,58 @@
+[
+  {
+    "id": "starter",
+    "icon": "🌱",
+    "price": "Rs 30,000",
+    "price2": "Rs 2,500",
+    "name": "Starter",
+    "tagline": "For individuals and small businesses getting online.",
+    "features": [
+      "1–5 page website",
+      "Responsive design",
+      "Basic SEO",
+      "Contact form",
+      "Social media integration",
+      "Basic analytics",
+      "1 month free maintenance"
+    ],
+    "highlighted": false
+  },
+  {
+    "id": "professional",
+    "icon": "🚀",
+    "price": "Rs 50,000",
+    "price2": "Rs 5,000",
+    "name": "Professional",
+    "tagline": "For growing businesses that need more functionality.",
+    "features": [
+      "5–10 page website",
+      "Custom UI/UX design",
+      "Advanced SEO",
+      "Contact & booking automation",
+      "Custom forms",
+      "Analytics & reporting",
+      "Basic integrations",
+      "2 months free maintenance"
+    ],
+    "highlighted": true
+  },
+  {
+    "id": "business",
+    "icon": "💎",
+    "price": "Rs 80,000",
+    "price2": "Rs 9,000",
+    "name": "Business",
+    "tagline": "For businesses needing a complete digital solution.",
+    "features": [
+      "Custom web application",
+      "E-commerce functionality",
+      "Advanced automation",
+      "Payment & invoice integration",
+      "Custom dashboard",
+      "Advanced analytics",
+      "Third-party API integrations",
+      "3 months free maintenance"
+    ],
+    "highlighted": false
+  }
+]

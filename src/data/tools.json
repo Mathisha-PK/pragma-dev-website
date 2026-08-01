@@ -1,0 +1,47 @@
+[
+  {
+    "id": "js",
+    "name": "JavaScript",
+    "image": "images/tools/js.png"
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "image": "images/tools/css.png"
+  },
+  {
+    "id": "express",
+    "name": "express",
+    "image": "images/tools/express.png"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "image": "images/tools/github.png"
+  },
+  {
+    "id": "html",
+    "name": "HTML",
+    "image": "images/tools/html.png"
+  },
+  {
+    "id": "node",
+    "name": "Node.js",
+    "image": "images/tools/nodejs.png"
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "image": "images/tools/sql.png"
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "image": "images/tools/react.png"
+  },
+  {
+    "id": "tailwind",
+    "name": "Tailwind CSS",
+    "image": "images/tools/tailwind.png"
+  }
+]
