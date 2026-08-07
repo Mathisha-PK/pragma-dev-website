@@ -26,18 +26,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/portfolio" className="hover:text-white">
-                  Portfolio
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" className="hover:text-white">
-                  About
+                <Link to="/pricing" className="hover:text-white">
+                  Pricing
                 </Link>
               </li>
               <li>
                 <Link to="/contact" className="hover:text-white">
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link to="/terms" className="hover:text-white">
+                  Terms & Conditions
                 </Link>
               </li>
             </ul>
